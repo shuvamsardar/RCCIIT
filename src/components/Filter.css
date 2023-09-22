@@ -1,0 +1,24 @@
+.filter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0px;
+}
+
+.filter-btn
+{
+    background-color: rgb(232, 159, 232);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 450;
+}
+
+.filter-btn:hover{
+    background-color: rgb(235, 92, 235);
+    color: black;
+}

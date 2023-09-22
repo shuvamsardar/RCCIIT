@@ -1,0 +1,11 @@
+.jobss
+{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:60px;
+        flex-wrap: wrap;
+        padding:20px 0px;
+    
+}

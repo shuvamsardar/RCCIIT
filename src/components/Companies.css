@@ -1,0 +1,32 @@
+
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    background-color: #00ADB5;
+    color: #355C7D;
+}
+.companies
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding: 40px 20px;
+border-bottom: 1px solid black;
+}
+
+.companyImg img
+{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    
+}
+
+.companyImg{
+
+    max-width: 100%;
+    max-height: 100vh;
+    text-align: center;
+}

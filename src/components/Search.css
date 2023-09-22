@@ -1,0 +1,40 @@
+.search
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    background-color: rgb(250, 161, 250);
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.text
+{
+    text-align: center;
+}
+
+.searching
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.searchbar
+{
+    padding-left: 10px;
+    padding-right: 700px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.search-btn
+{
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: 1px solid gray;
+    background-color: white;
+}

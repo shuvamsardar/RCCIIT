@@ -1,0 +1,110 @@
+.heading
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 20px;
+    border-bottom: 1px solid black;
+}
+
+.looking
+{
+    border: 3px solid #00ADB5;
+    ;
+    border-radius: 15px;
+    width: 15rem;
+    text-align: center;
+    padding: 8px;
+}
+.looking p{
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.context
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+.context h1{
+    font-size: 4.8rem;
+    color: black;
+    font-weight: 600;
+}
+.context h3
+{
+    font-size: 3rem;
+}
+
+.context h4{
+    font-size: 2rem;
+}
+
+.content
+{
+    text-align: left;
+    word-wrap: break-word;
+    width:550px
+}
+.content span 
+{
+    color: #00ADB5;
+}
+
+.btns
+{
+    display:flex;
+    justify-content: left; 
+    gap: 20px;
+    
+}
+
+.bt{
+    border-radius: 8px;
+    padding: 12px 25px;
+    border: none;
+}
+
+
+.heading-img
+{
+max-width: 100%;
+max-height: 100%;
+}
+
+.heading-img img{
+    height:400px ;
+    width:550px;
+}
+
+.login
+{
+    background-color: white;
+    color: #00ADB5;
+    border: 1px solid #00ADB5;
+    ;
+}
+.login:hover
+{
+    background-color: #00ADB5;
+    color: black;
+    border: 1px solid #30e3ca;
+}
+
+.register
+{
+    background-color: #00ADB5;
+    color: white;
+}
+    
+.register:hover
+{
+    background-color: rgb(242, 94, 242);
+    border-color: purple;
+    color: black;
+}
+

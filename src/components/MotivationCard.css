@@ -1,0 +1,26 @@
+.motocard
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 30%;
+    border: 1px solid  black;        
+    text-align: left;
+    margin: 30px;
+    padding: 0px;
+    border-radius: 3px;
+    
+    background-color: white;
+}
+.moto-img iframe
+{
+    height:240px;
+    width:360px;
+
+}
+.moto-img{
+    max-height:100%;
+    max-width:100%;
+}

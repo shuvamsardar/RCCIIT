@@ -1,0 +1,30 @@
+.easy
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 80px;
+}
+
+.ft-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    width: 90%;
+    padding: 20px;
+
+}
+.feature
+{
+    color: black;
+    width: 20%;
+    border: 2px solid rgb(169, 167, 167);
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 1.7rem;
+    border-radius: 15px;
+}

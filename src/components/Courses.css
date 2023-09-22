@@ -1,0 +1,26 @@
+.full-courses
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+    padding: 20px;
+    background-color: #00ADB5;
+}
+.full-courses h1{
+    margin-bottom: 0px;
+}
+
+.full-courses h4{
+    margin-top: 10px;
+}
+.courses{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}

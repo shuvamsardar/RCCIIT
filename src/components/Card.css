@@ -1,0 +1,55 @@
+.card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: 0.5s;
+    background-color: #00ADB5;
+}
+.card:hover{
+    transform: scale(1.02)
+}
+
+
+.up
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.up h2{
+    margin: 5px;
+}
+.post
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 7px;
+    margin: 5px;
+}
+
+.down
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 140px;
+   color: white;
+}
+.btn
+{
+    padding:7px 25px;
+    border-radius: 25px;
+    text-align: center;
+}

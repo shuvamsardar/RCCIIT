@@ -1,0 +1,19 @@
+.tests
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.test-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+}

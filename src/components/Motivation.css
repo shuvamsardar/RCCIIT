@@ -1,0 +1,27 @@
+.motivation
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.motivation h1{
+    margin-bottom: 0px;
+}
+.motivation h4{
+    margin-top: 0px;
+}
+
+.moto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 90%;
+    padding: 20px;
+}

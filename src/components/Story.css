@@ -1,0 +1,21 @@
+.story
+{
+    display: flex;;
+    justify-content: space-evenly;;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.story-img
+{
+max-width: 100%;
+max-height: 100%;
+padding: 30px;
+background-color: #00ADB5;
+}
+
+.story-img img{
+    height:400px ;
+    width:450px;
+}
